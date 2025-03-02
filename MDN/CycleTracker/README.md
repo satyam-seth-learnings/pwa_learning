@@ -2,4 +2,4 @@
 
 - [GitHub Link](https://github.com/mdn/pwa-examples/tree/main/cycletracker)
 
-- [PWA Image Generator](https://www.pwabuilder.com/imageGenerator)
+- [PWA Link](https://mdn.github.io/pwa-examples/cycletracker/)
