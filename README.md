@@ -2,5 +2,8 @@
 
 - [PWA Image Generator](https://www.pwabuilder.com/imageGenerator)
 
-cycletracker
-cycletracker
+
+- Note:-
+
+- > for local server for use path `/**`
+- > for gh-pages path use `/pwa_learning/**`
