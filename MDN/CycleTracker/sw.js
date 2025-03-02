@@ -6,13 +6,13 @@ const CACHE_NAME = `period-tracker-${VERSION}`;
 
 // The static resources that the app needs to function.
 const APP_STATIC_RESOURCES = [
-    "/MDN/CycleTracker/",
-    "/MDN/CycleTracker/index.html",
-    "/MDN/CycleTracker/app.js",
-    "/MDN/CycleTracker/style.css",
-    "/MDN/CycleTracker/icons/wheel.svg",
-    "/MDN/CycleTracker/icons/tire.svg",
-    "/MDN/CycleTracker/cycletracker.json",
+    "/pwa_learning/MDN/CycleTracker/",
+    "/pwa_learning/MDN/CycleTracker/index.html",
+    "/pwa_learning/MDN/CycleTracker/app.js",
+    "/pwa_learning/MDN/CycleTracker/style.css",
+    "/pwa_learning/MDN/CycleTracker/icons/wheel.svg",
+    "/pwa_learning/MDN/CycleTracker/icons/tire.svg",
+    "/pwa_learning/MDN/CycleTracker/cycletracker.json",
 ];
 
 // On install, cache the static resources
@@ -47,7 +47,7 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
     // As a single page app, direct app to always go to cached home page.
     if (event.request.mode === "navigate") {
-        event.respondWith(caches.match("/MDN/CycleTracker/"));
+        event.respondWith(caches.match("/pwa_learning/MDN/CycleTracker/"));
         return;
     }
 
